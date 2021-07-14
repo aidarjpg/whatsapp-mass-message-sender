@@ -5,7 +5,7 @@ import random
 
 #+-+-+-+-+-+-+-+-+-+-+-+-+- GLOBAL DECLARATIONS +-+-+-+-+-+-+-+-+-
 chat_name = ['name1','name2','etc']  #names of people you want to send the message to
-messages = ['@32-1-s2l', '@g1-14-v-1'] #list of messages you want to send
+messages = ['@32-1-s2l', '@g1-14-v-1'] #list of messages you want to send 
 #+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-++-+-+-+-
 
 class WhatsAppBot():
@@ -53,7 +53,7 @@ class WhatsAppBot():
 		print('Opening chat with '+ name)
 		time.sleep(5)
 		#type in the required message
-		chatBox.send_keys('Test')
+		chatBox.send_keys('Write some text here') #<-------- !!!!!!!!!!!PLACE YOUR TEXT HERE!!!!!!!!!!!!!!!!!
 		#wait for 1 second to make sure that the send button renders
 		time.sleep(1)
 		#search the send button
